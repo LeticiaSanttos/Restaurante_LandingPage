@@ -1,0 +1,30 @@
+#pratos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem; 
+}
+#semana{
+    background-color: var(--laranja);
+    border-radius: 2rem 2rem 0 0;
+    padding-left: 2rem;
+}
+#semana button, #semana p{
+    background-color: var(--laranja);
+    color: #fff;
+    font-family: var(--font_jolly);
+    padding: 1rem 2rem;
+    letter-spacing: 2px;
+    height: 4rem;
+    border:none;
+    /* border-radius: 2rem 2rem 0 0; */
+    margin: 0;
+}
+#pratos #descricao{
+    padding: 2rem;
+    background-color: #111111c6;
+    border-radius: 0 0 2rem 2rem;
+}
+#prato1{
+    height: 15rem;
+}
