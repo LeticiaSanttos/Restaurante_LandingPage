@@ -1,29 +1,43 @@
 #pratos{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding: 2rem; 
+    text-align: center;
 }
 #semana{
     background-color: var(--laranja);
     border-radius: 2rem 2rem 0 0;
-    padding-left: 2rem;
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 2rem; */
 }
 #semana button, #semana p{
     background-color: var(--laranja);
     color: #fff;
     font-family: var(--font_jolly);
-    padding: 1rem 2rem;
+    padding: 1rem;
     letter-spacing: 2px;
     height: 4rem;
     border:none;
-    /* border-radius: 2rem 2rem 0 0; */
+    border-radius: 2rem 2rem 0 0;
     margin: 0;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+.pratosD{
+    box-shadow: -1px 1px 17px 3px  rgba(24, 24, 24, 0.63);
+    border-radius: 2rem;
+    width: 70%;
 }
 #pratos #descricao{
     padding: 2rem;
-    background-color: #111111c6;
-    border-radius: 0 0 2rem 2rem;
+    background-color: #faf4f4d3;
+    border-radius: 0 0 2rem 2rem; 
 }
 #prato1{
     height: 15rem;
