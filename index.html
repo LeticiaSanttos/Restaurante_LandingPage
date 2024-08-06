@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/prato_do_dia.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <script src="./js/menu.js"></script>
+    <script src="./js/scroll.js"></script>
 </head>
 <body>
     <section id="home">
@@ -46,7 +48,7 @@
     </section>
     <section id="pratos">
         <h1 class="titulos_link">Pratos do Dia</h1>
-        <div class="table">
+        <div class="table to_apper">
             <div class="pratosD">
                 <div id="semana">
                     <button>Segunda-feira</button>
@@ -80,6 +82,21 @@
 
     </section>
     <section id="contatos"></section>
-      
+  <script>
+    window.sr = ScrollReveal({reset: true});
+
+    sr.reveal('.titulos_link', {
+    duration: 2000,
+    origin: 'top',
+    distance: '1rem',
+    opacity: 0
+});
+    sr.reveal('.to_apper',{
+    rotate: {x:0, y:3, z:0},
+    origin: 'top',
+    distance: '5rem',
+    opacity: 0,
+    duration:2000});
+  </script>    
 </body>
 </html>
