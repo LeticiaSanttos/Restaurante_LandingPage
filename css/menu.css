@@ -8,13 +8,17 @@ nav {
     display: flex;
     padding: 0 1rem;
     flex-direction: row;
-    background-color: #ffa2834d;
+    background-color: #b33636ab;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.97);
     justify-content: space-between;
     align-items: center;
     color: var(--color_branco);
     font-family: var(--font_kadwa);
     z-index: 1000; /* Garantir que a nav fique acima de outros elementos */
     box-sizing: border-box;
+}
+nav:hover{
+    
 }
 
 .links_menu {
@@ -48,7 +52,7 @@ nav {
 }
 
 .links_menu ul a:hover {
-    text-shadow: 1px 1px 7px #464242a2;
+    /* text-shadow: 1px 1px 7px #464242a2; */
     border-color: var(--laranja);
     color: var(--laranja);
 }

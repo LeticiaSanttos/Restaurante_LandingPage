@@ -74,6 +74,13 @@ section{
     animation: slideFromLeft 1s forwards 1s;
 }
 
+.titulos_link{
+    font-family: var(--font_jolly);
+    font-size: 3rem;
+    color: #ffffff;
+    visibility: hidden;
+}
+
 @keyframes slideFromLeft {
     0% {
         transform: translateX(-100%);
